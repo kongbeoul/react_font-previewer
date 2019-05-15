@@ -1,0 +1,58 @@
+input[type="range"] {
+  margin: 10px 0;
+  -webkit-appearance: none;
+  background: transparent;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background: #a9afb3;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  background-color: #e1e4e6;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  font-size: 14px;
+  color: #a9afb3;
+}
+
+.Controllbar {
+  width: 100%;
+  display: flex;
+  padding: 16px 22px;
+  box-sizing: border-box;
+}
+
+.Controllbar > * {
+  flex: none;
+}
+
+.Controllbar > *:last-child {
+  min-width: 150px;
+  margin-left: auto;
+}
+
+.Controllbar .Controllbar__Size__Icon {
+  display: inline-block;
+  margin-right: 8px;
+}

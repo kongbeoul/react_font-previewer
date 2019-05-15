@@ -1,0 +1,131 @@
+/* Reset */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.2;
+  -webkit-text-size-adjust: none;
+}
+body,
+div,
+form,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+em,
+p,
+span,
+textarea,
+pre,
+label,
+fieldset,
+th,
+td,
+button,
+a,
+input,
+select,
+hr {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, Arial, dotum;
+  word-break: break-all;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th {
+  font-weight: normal;
+}
+em,
+span,
+strong,
+a,
+button,
+i {
+  font-size: 100%;
+}
+em,
+address {
+  font-style: normal;
+}
+ol,
+ul,
+dl {
+  list-style: none;
+}
+fieldset,
+img,
+hr,
+button {
+  border: 0;
+}
+img,
+input,
+textarea,
+select {
+  vertical-align: top;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+legend,
+caption {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+}
+a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+button {
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  appearance: none;
+} /* 모바일 한정 */
+input[type="text"]::-ms-clear,
+input[type="password"]::-ms-clear,
+input[type="text"]::-ms-reveal,
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+select {
+  outline: none;
+  border: none;
+}

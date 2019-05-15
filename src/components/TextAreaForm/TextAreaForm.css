@@ -1,0 +1,14 @@
+.TextAreaForm {
+  width: 100%;
+}
+.TextAreaForm textarea {
+  width: 100%;
+  min-height: 504px;
+  display: block;
+  padding: 44px;
+  box-sizing: border-box;
+  background: transparent;
+  color: #fff;
+  resize: none;
+  font-size: 50px;
+}

@@ -1,0 +1,274 @@
+/* 나눔 고딕 */
+@font-face {
+  font-family: NanumGothic;
+  font-weight: 400;
+  src: local("나눔고딕"), url("./NanumGothic-Regular.woff2") format("woff2"),
+    url("./NanumGothic-Regular.woff") format("woff"),
+    url("./NanumGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NanumGothic;
+  font-weight: 700;
+  src: local("나눔고딕 Bold"), url("./NanumGothic-Bold.woff2") format("woff2"),
+    url("./NanumGothic-Bold.woff") format("woff"),
+    url("./NanumGothic-Bold.ttf") format("truetype");
+}
+
+/* 나눔 바른고딕 */
+@font-face {
+  font-family: NanumBarunGothic;
+  font-weight: 300;
+  src: local("나눔바른고딕 Light"),
+    url("./NanumBarunGothicLight.woff2") format("woff2"),
+    url("./NanumBarunGothicLight.woff") format("woff"),
+    url("./NanumBarunGothicLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NanumBarunGothic;
+  font-weight: 400;
+  src: local("NanumBarunGothic"),
+    url("./NanumBarunGothic.woff2") format("woff2"),
+    url("./NanumBarunGothic.woff") format("woff"),
+    url("./NanumBarunGothic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NanumBarunGothic;
+  font-weight: 700;
+  src: local("나눔바른고딕 Bold"),
+    url("./NanumBarunGothicBold.woff2") format("woff2"),
+    url("./NanumBarunGothicBold.woff") format("woff"),
+    url("./NanumBarunGothicBold.ttf") format("truetype");
+}
+
+/* 나눔스퀘어 */
+@font-face {
+  font-family: NanumSquare;
+  font-weight: 300;
+  src: local("NanumSquare Light"), url("./NanumSquareL.woff2") format("woff2"),
+    url("./NanumSquareL.woff") format("woff"),
+    url("./NanumSquareL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NanumSquare;
+  font-weight: 400;
+  src: local("NanumSquare"), url("./NanumSquareR.woff2") format("woff2"),
+    url("./NanumSquareR.woff") format("woff"),
+    url("./NanumSquareR.ttf") format("truetype");
+}
+@font-face {
+  font-family: NanumSquare;
+  font-weight: 700;
+  src: local("NanumSquare Bold"), url("./NanumSquareB.woff2") format("woff2"),
+    url("./NanumSquareB.woff") format("woff"),
+    url("./NanumSquareB.ttf") format("truetype");
+}
+
+/* Noto Sans */
+@font-face {
+  font-family: NotoSans;
+  font-weight: 300;
+  src: local("Noto Sans KR Light"),
+    url("./NotoSans-Light.woff2") format("woff2"),
+    url("./NotoSans-Light.woff") format("woff"),
+    url("./NotoSans-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-weight: 400;
+  src: local("Noto Sans KR Regular"),
+    url("./NotoSans-Regular.woff2") format("woff2"),
+    url("./NotoSans-Regular.woff") format("woff"),
+    url("./NotoSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NotoSans;
+  font-weight: 700;
+  src: local("Noto Sans KR Bold"), url("./NotoSans-Bold.woff2") format("woff2"),
+    url("./NotoSans-Bold.woff") format("woff"),
+    url("./NotoSans-Bold.otf") format("opentype");
+}
+
+/* Spoqa Han Sans */
+@font-face {
+  font-family: SpoqaHanSans;
+  font-weight: 300;
+  src: local("Spoqa Han Sans Light"),
+    url("./SpoqaHanSansLight.woff2") format("woff2"),
+    url("./SpoqaHanSansLight.woff") format("woff"),
+    url("./SpoqaHanSansLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SpoqaHanSans;
+  font-weight: 400;
+  src: local("Spoqa Han Sans Regular"),
+    url("./SpoqaHanSansRegular.woff2") format("woff2"),
+    url("./SpoqaHanSansRegular.woff") format("woff"),
+    url("./SpoqaHanSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SpoqaHanSans;
+  font-weight: 700;
+  src: local("Spoqa Han Sans Bold"),
+    url("./SpoqaHanSansBold.woff2") format("woff2"),
+    url("./SpoqaHanSansBold.woff") format("woff"),
+    url("./SpoqaHanSansBold.ttf") format("truetype");
+}
+
+/* roboto */
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  src: local("Roboto-Light"), url("./Roboto-Light.woff2") format("woff2"),
+    url("./Roboto-Light.woff") format("woff"),
+    url("./Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  src: local("Roboto-Regular"), url("./Roboto-Regular.woff2") format("woff2"),
+    url("./Roboto-Regular.woff") format("woff"),
+    url("./Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  src: local("Roboto-Bold"), url("./Roboto-Bold.woff2") format("woff2"),
+    url("./Roboto-Bold.woff") format("woff"),
+    url("./Roboto-Bold.ttf") format("truetype");
+}
+
+/* lato */
+@font-face {
+  font-family: Lato;
+  font-weight: 100;
+  src: local("Lato-Light"), url("./Lato-Light.woff2") format("woff2"),
+    url("./Lato-Light.woff") format("woff"),
+    url("./Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: 400;
+  src: local("Lato-Regular"), url("./Lato-Regular.woff2") format("woff2"),
+    url("./Lato-Regular.woff") format("woff"),
+    url("./Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: 700;
+  src: local("Lato-Bold"), url("./Lato-Bold.woff2") format("woff2"),
+    url("./Lato-Bold.woff") format("woff"),
+    url("./Lato-Bold.ttf") format("truetype");
+}
+
+/* NotoSans */
+[class^="NotoSans"] {
+  font-family: NotoSans;
+}
+.NotoSansLight {
+  font-weight: 300;
+}
+.NotoSansRegular {
+  font-weight: 400;
+}
+.NotoSansMedium {
+  font-weight: 500;
+}
+.NotoSansBold {
+  font-weight: 700;
+}
+
+/* Roboto */
+[class^="Roboto"] {
+  font-family: Roboto;
+}
+.RobotoLight {
+  font-weight: 300;
+}
+.RobotoRegular {
+  font-weight: 400;
+}
+.RobotoMedium {
+  font-weight: 500;
+}
+.RobotoBold {
+  font-weight: 700;
+}
+
+/* Lato */
+[class^="Lato"] {
+  font-family: Lato;
+}
+.LatoLight {
+  font-weight: 300;
+}
+.LatoRegular {
+  font-weight: 400;
+}
+.LatoBold {
+  font-weight: 700;
+}
+
+/* SpoqaHanSans */
+[class^="SpoqaHanSans"] {
+  font-family: SpoqaHanSans;
+}
+.SpoqaHanSansLight {
+  font-weight: 300;
+}
+.SpoqaHanSansRegular {
+  font-weight: 400;
+}
+.SpoqaHanSansBold {
+  font-weight: 700;
+}
+
+/* NanumSquare */
+[class^="NanumSquare"] {
+  font-family: NanumSquare;
+}
+.NanumSquareLight {
+  font-weight: 300;
+}
+.NanumSquareRegular {
+  font-weight: 400;
+}
+.NanumSquareBold {
+  font-weight: 700;
+}
+
+/* NanumBarunGothic */
+[class^="NanumBarunGothic"] {
+  font-family: NanumBarunGothic;
+}
+.NanumBarunGothicLight {
+  font-weight: 300;
+}
+.NanumBarunGothicRegular {
+  font-weight: 400;
+}
+.NanumBarunGothicBold {
+  font-weight: 700;
+}
+
+/* NanumGothic */
+[class^="NanumGothic"] {
+  font-family: NanumGothic;
+}
+.NanumGothicLight {
+  font-weight: 300;
+}
+.NanumGothicBold {
+  font-weight: 700;
+}
