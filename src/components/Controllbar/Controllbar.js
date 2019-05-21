@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { changeFont, changeFontSize } from "../../reducers/control";
 
 import IconFontSize from "../../assets/images/icon_font_size.png";
+import btnDown from "../../assets/images/btn_down.png";
 import "./Controllbar.css";
 
 const FontList = [
@@ -175,6 +176,9 @@ const Controllbar = () => {
             </optgroup>
           ))}
         </select>
+        <span className="btn__down">
+          <img src={btnDown} />
+        </span>
       </div>
     </div>
   );

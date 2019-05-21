@@ -33,14 +33,16 @@ select {
   appearance: none;
   background: transparent;
   font-size: 14px;
-  color: #a9afb3;
+  color: #666;
 }
 
 .Controllbar {
   width: 100%;
   display: flex;
+  margin-top: 71px;
   padding: 16px 22px;
   box-sizing: border-box;
+  border: 1px solid #ccc;
 }
 
 .Controllbar > * {
@@ -55,4 +57,17 @@ select {
 .Controllbar .Controllbar__Size__Icon {
   display: inline-block;
   margin-right: 8px;
+}
+.Controllbar .Controllbar__Select {
+  position: relative;
+}
+
+.Controllbar .Controllbar__Select .btn__down {
+  width: 13px;
+  height: 9px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
