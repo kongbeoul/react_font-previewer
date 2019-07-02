@@ -2,7 +2,9 @@
 
 ## 적용 기술
 
-** React, Redux, Webpack, Babel ** 
+```
+React, Redux, Webpack, Babel 
+```
 
 ```
 npm run dev
