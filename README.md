@@ -1,5 +1,7 @@
 # React Font Previewer
 
+**개인 공부용 작업 파일입니다.**
+
 ## 적용 기술
 
 **React, Redux, Webpack, Babel** 
