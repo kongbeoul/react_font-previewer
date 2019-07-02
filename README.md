@@ -2,14 +2,19 @@
 
 ## 적용 기술
 
-```
-React, Redux, Webpack, Babel 
-```
+**React, Redux, Webpack, Babel** 
+
+## 사용 가능 스크립트
 
 ```
 npm run dev
 ```
 (http://localohost:3000) 개발 모드
+
+```
+npm run build
+```
+배포용 빌드 명령어
 
 
 ## 적용 폰트 목록
