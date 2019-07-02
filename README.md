@@ -1,6 +1,7 @@
 # React Font Previewer
 
-**개인 공부용 작업 파일입니다.**
+**개인 공부 용도로 작업한 파일 입니다.**
+[참고사이트: 스포카 한 산스 기술 블로그] (https://spoqa.github.io/spoqa-han-sans/ko-KR/)
 
 ## 적용 기술
 
